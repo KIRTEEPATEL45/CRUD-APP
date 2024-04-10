@@ -1,0 +1,32 @@
+
+.content {
+    width: 40%;
+    height: 30vh;
+    padding: 10px;
+}
+.tagInput{
+    width: auto;
+    height: auto;
+    border: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tagInput input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.tagInput button{
+    color: white;
+    background-color: rgb(116, 95, 69);
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.tagInput button span {
+    margin-left: 5px;
+}
